@@ -1,0 +1,41 @@
+.row {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.cell:hover {
+    background: #ddd;
+}
+
+.hidden-cell:hover,
+.disabled {
+    background: transparent !important;
+}
+
+.cell {
+    cursor: pointer;
+    margin: 0.2rem;
+    height: 80px;
+    width: 80px;
+    background: #eee;
+    border: solid 1px rgb(134, 134, 134);
+    border-radius: 0.3rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: rgb(121, 121, 121);
+    text-align: center;
+    line-height: 80px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+.hidden-cell {
+    border: none;
+    background: transparent;
+}
