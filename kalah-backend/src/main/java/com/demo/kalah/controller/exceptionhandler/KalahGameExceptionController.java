@@ -1,7 +1,7 @@
 package com.demo.kalah.controller.exceptionhandler;
 
-import com.demo.kalah.Exception.NoSuchGameExistsException;
-import com.demo.kalah.Exception.SowingException;
+import com.demo.kalah.exception.NoSuchGameExistsException;
+import com.demo.kalah.exception.SowingException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;

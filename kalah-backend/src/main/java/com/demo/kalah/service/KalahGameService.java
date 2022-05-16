@@ -1,7 +1,7 @@
 package com.demo.kalah.service;
 
-import com.demo.kalah.Exception.NoSuchGameExistsException;
-import com.demo.kalah.Exception.SowingException;
+import com.demo.kalah.exception.NoSuchGameExistsException;
+import com.demo.kalah.exception.SowingException;
 import com.demo.kalah.dto.GameServiceRequest;
 import com.demo.kalah.dto.GameServiceResponse;
 import org.springframework.lang.NonNull;

@@ -1,6 +1,6 @@
 package com.demo.kalah.repo.Impl;
 
-import com.demo.kalah.Exception.NoSuchGameExistsException;
+import com.demo.kalah.exception.NoSuchGameExistsException;
 import com.demo.kalah.dto.GameServiceRequest;
 import com.demo.kalah.repo.KalahGameRepository;
 import org.junit.jupiter.api.Test;

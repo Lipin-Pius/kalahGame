@@ -1,6 +1,6 @@
 package com.demo.kalah.service.impl;
 
-import com.demo.kalah.Exception.NoSuchGameExistsException;
+import com.demo.kalah.exception.NoSuchGameExistsException;
 import com.demo.kalah.constants.Player;
 import com.demo.kalah.dto.GameServiceRequest;
 import com.demo.kalah.dto.GameServiceResponse;

@@ -1,4 +1,4 @@
-package com.demo.kalah.Exception;
+package com.demo.kalah.exception;
 
 /**
  * Thrown when a given move/sow operation fails
